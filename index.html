@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ content.html_title }}</title>
+        <meta name="description" content="{{ content.meta_description }}">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,800|Poppins:400,500,700');
+         body{
+         
+            /*background:url("https://subtlepatterns.com/patterns/sayagata-400px.png");*/
+            background:url("http://ecx.images-amazon.com/images/I/91ltFGvBzsL._SL1500_.jpg");
+        }
+        
+        .container{
+          background:#fefefe;
+          box-shadow : 0px 10px 20px 0px rgba(0,0,0,0.3);
+          width:70%;
+        }
+        
+     
+        
+        /*Do Not Delete. Demo class ensures all boxes are same height*/
+        .demo{
+            margin-bottom: -99999px;
+            padding-bottom: 99999px;
+        }
+       
+        
+        /*text styles*/
+        h1, h2, p{
+          font-family: 'Open Sans', sans-serif;  
+        }
+        
+        h1{
+             letter-spacing:1px;
+             font-weight:800;
+        }
+        
+        h2{
+            font-weight:600;
+        }
+        
+        h3, h4{
+       font-family: 'Poppins', sans-serif;
+        }
+        
+        h3{
+            font-weight:500;
+            text-transform:uppercase;
+            color:#FF3B7F;
+        }
+        
+        h4{
+            font-weight:400;
+        }
+        
+        /*row column styling for regular products*/
+        
+        .btn{
+            margin-left:10px;
+        }
+        /*.col-md-4{
+             background:#fff;
+             background:url("https://subtlepatterns.com/patterns/sayagata-400px.png");
+             border:1px solid #eee;
+             margin-left:10px;
+        }*/
+       .row{
+           overflow:hidden;
+           margin-bottom:10px;
+       }
+       
+       /*row styling for asset/sponsor products*/
+       .assetrow{
+           font-size:1em; background:#eee; color:#8e8e8e; padding:10px;
+       }
+       .assets h3{
+           color:#D0C02D;
+       }
+       .jumbotron{
+            margin-bottom:0px;
+           background:url("http://www.mobiletalks.org/file/gallery/material-design-wallpapers/Material-Wallpapers-1920x1707-016.jpg");
+           background-size:cover;
+           height:300px;
+           color:#fff; 
+       }
+       /*media styling*/
+        @media (max-width: 40em) {
+            .leftimg,.rightimg {
+                display:none;}
+            
+            .row{
+                margin-bottom:10px;}
+        }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         {{ standard_header_includes }}
+    </head>
+    <body>
+   
+<div class="container text-center">
+  <div class="row">
+    <div class="jumbotron">
+    <img src="http://cdn2.hubspot.net/hubfs/546758/Blue_pharmtech_logoTransparentsmall.png"/> presents
+    <h1>Learning Tools:</h1>
+        <h2>Critical Quality Attributes and the Microstructure of Topical Semi-Solid Formulations</h2>
+    </div>
+  </div>
+  <div class="row" style="margin-bottom:20px;">
+            <div class="col-md-4 demo">
+                <h3>Webcast & Summary</h3>
+                <i class="fa fa-desktop fa-4x" aria-hidden="true"></i>
+                <h4>The Relationship Between Critical Quality Attributes and the Microstructure of Topical Semi-Solid Formulations</h4>
+                <p>Expert speakers discuss the challenges of formulating semi-solid drug products for skin delivery and some opportunities for overcoming them.</p>
+                <br><a class="btn btn-default" href="http://www.pharmtech.com/pt/microstructure" target="_blank">View webcast* <span class="glyphicon glyphicon-chevron-right"></span></a><a class="btn btn-default" href="http://images.alfresco.advanstar.com/alfresco_images/pharma/2016/09/22/e2d3261b-0bf1-4764-bdab-9bb75ccf605f/PT0916%20BASF-Skin%20ES%20pr5f%5b3%5d.pdf" target="_blank">Download Summary <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <p><span style="font-size:.8em"><em>*The interactive webcast requires additional registration information.</em></span></p>
+                
+            </div>
+             <div class="col-md-4 demo">
+                <h3>Video Q&A</h3>
+                <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                <h4>Understanding the Role of Excipients in Topical Semi-Solid Microstructure and Critical Performance Parameters</h4>
+                <p>A four-minute interview with BASF’s Norman Richardson, who explains how microscopical evaluations can solve formulation problems.</p><br>
+                <a class="btn btn-default" href="http://www.pharmtech.com/understanding-role-excipients-topical-semi-solid-microstructure-and-critical-performance-parameters" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>  
+               <div class="col-md-4 demo">
+    
+                <h3>Video Q&A</h3>
+                 <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                <h4>The Importance of Microstructure in Topical Drug Product Development</h4>
+                <p>This interview with Nigel Langley of BASF examines the importance of microstructure in topical drug development and how BASF is playing an integral role in this hot industry topic.</p><br>
+                <a class="btn btn-default" href="http://www.pharmtech.com/importance-microstructure-topical-drug-product-development" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>   
+        </div>
+<!-- /.row -->
+  
+  <div class="row assetrow" >
+            <div class="col-md-6 assets">
+                <h3>Poster</h3>
+                <span style="font-size:.8em"><em>from BASF</em></span>
+                <h4>Effective Topical Delivery of Ibuprofen through the Skin </h4>
+                <p>BASF and partners have explored the delivery of ibuprofen through the skin or skin models. The studies described here demonstrate that some BASF excipients can be used to accelerate ibuprofen dermal penetration.</p>
+                <a class="btn btn-default" href="http://learnpharmascience.com/leadnurturing/basf_skindelivery/2014%20AAPS%20Skin-Delivery-Ibuprofen%20poster.pdf" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div> 
+            <div class="col-md-6 assets">
+                <h3>Presentation</h3>
+                 <span style="font-size:.8em"><em>from BASF</em></span>
+                <h4>Introduction to Skin Delivery Platform</h4>
+                <p>BASF Pharma Solutions offers a portfolio of functional materials to meet the challenges of the topical formulator. This presentation briefly summarizes some of the work that BASF is doing to demonstrate the performance and functionality of our excipients.</p>
+                <a class="btn btn-default" href="http://learnpharmascience.com/leadnurturing/basf_skindelivery/Intro%20Skin%20Delivery%20Global%20Jan%202016%20NR.pdf" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>   
+             
+    </div>
+<!-- /.  row -->
+ <div class="row">
+            <div class="col-md-4 demo">
+                <h3>Audio Podcast</h3>
+                <i class="fa fa-microphone fa-4x" aria-hidden="true"></i>
+                <h4> Characterizing Microstructural Differences of Semi-Solid Topical Dosage Forms</h4>
+                <p>S. Narasimha Murthy talks about the factors that influence the quality attributes of topical semi-solid products and tools for testing product performance.</p>
+                <a class="btn btn-default" href="http://www.pharmtech.com/characterizing-microstructural-differences-semisolid-topical-dosage-forms?submissionGuid=b0f8735d-80a9-4066-8951-ccc91c4b3940" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+      
+   
+            <div class="col-md-4 demo">
+                <h3>Infographic</h3>
+                <i class="fa fa-bar-chart fa-4x" aria-hidden="true"></i>
+                <h4>The Relationship Between Critical Quality Attributes and the Microstructure of Topical Semi-Solid Formulations</h4>
+                <p>A fresh visual explaining why formulation microstructures are critical to product performance, efficacy, and stability.</p>
+                <a class="btn btn-default" href="http://images.alfresco.advanstar.com/alfresco_images/pharma/2016/10/03/fdc83388-4823-48c1-b5f0-786363cd9fa5/BASF-SkinDelivery-V3-9.27%5B1%5D.pdf?submissionGuid=16144fd2-11b1-498d-841a-b8e8cd2ec790" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+             <div class="col-md-4 demo">
+                <h3>eBook</h3>
+                <i class="fa fa-book fa-4x" aria-hidden="true"></i>
+                <h4>Optimizing Topical Semi-Solid Drug Formulation and Performance</h4>
+                <p>Key information about the significance of functional polymeric excipients on the semi-solid microstructure, product performance, and critical quality attributes.</p>
+                <a class="btn btn-default" href="http://cdn2.hubspot.net/hubfs/546758/PT1016%20eBook%20Skin-delivery_lowres.pdf?submissionGuid=e787f150-1521-49ce-a634-c1a8483785f1" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a> 
+           
+            </div>        
+        </div>
+            
+   
+
+    <div class="row assetrow" >
+            <div class="col-md-6 assets">
+                <h3>Article</h3>
+                 <span style="font-size:.8em"><em>from BASF</em></span>
+                <h4>Functional Excipients for Ointment Applications</h4>
+                <p>BASF Pharma Solutions has excipients to support the development of polyethylene glycol-based ointments. This presentation provides a background to PEG-ointments and insights about how best to formulate to avoid common problems. </p>
+                <a class="btn btn-default" href="http://learnpharmascience.com/leadnurturing/basf_skindelivery/Ointments%20Functional%20Excipients%2008%202016.pdf" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div> 
+            <div class="col-md-6 assets">
+                <h3>Article</h3>
+                 <span style="font-size:.8em"><em>from BASF</em></span>
+                <h4>Functional Excipients for Suppository Applications</h4>
+                <p>BASF Pharma Solutions has a portfolio of pharma-grade excipients that have been approved for use in suppositories. This introductory presentation briefly reviews the portfolio and guidelines for making suppositories.</p>
+                <a class="btn btn-default" href="http://learnpharmascience.com/leadnurturing/basf_skindelivery/Suppositories%20Functional%20Excipients%2008%202016.pdf" target="_blank">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>   
+            
+    </div> 
+     <div class="row">
+            <div class="col-md-4 demo">
+                <h3>Custom e-Newsletter</h3>
+                <i class="fa fa-newspaper-o fa-4x" aria-hidden="true"></i>
+
+                <p></p><a class="btn btn-default" href="http://cdn2.hubspot.net/hubfs/546758/PTBASFSkin_CustomEnews.html" target="_blank" style="margin-top:10px;">Download Now <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+            </div> 
+            <div class="col-md-8 text-center">
+                <p>Underwritten by BASF</p>
+                <img src="http://www.agrinet.com/wp-content/uploads/2014/07/BASF-lightblue-logo.jpg" width="100px"/>
+                
+            </div>
+           
+            
+    </div>
+</div>
+</div>
+  {{ standard_footer_includes }}
+    </body>
+</html>
